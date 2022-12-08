@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Passion+One:wght@400;700;900&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Secular+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Sriracha&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px;
+}
+header h1{
+    font-variant: small-caps;
+    padding-top: 50px;
+    font-family: 'passion one';
+    font-size: 9vw;
+    font-weight: lighter; 
+}
+nav {
+    padding-bottom: 50px;
+    color: #ffffff ;
+}
+nav > a{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    font-size: 3.5vw;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.452);
+    background-image: url('imagens/background001.jpg');
+    background-position: right center ;
+    background-attachment: fixed;
+    background-color: #353535;
+    background-size: cover;
+}
+.conteudo{
+    line-height: 2em;
+    margin: 30px;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+    font-family: 'sriracha';
+    background-color: #00000075;
+    color: #ffffff;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.445);
+    background-image: url('imagens/background002.jpg');
+    background-position: right center ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.conteudo2{
+    line-height: 2em;
+    margin: 30px;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+    font-family: 'sriracha';
+    background-color: #00000075;
+    color: #ffffff;
+}
+.normal{
+    font-family: 'sriracha';
+    font-size: 38px;
+    font-size: 3.5vw;
+    margin: 30px;
+}
+
+footer{
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: #000000;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
